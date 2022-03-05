@@ -1,0 +1,421 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    height: 100vh;
+    background-image: url("../img/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+}
+.header .navbar .left_item h3{
+   font-size: 20px;
+   font-weight: 600;
+   color: #fff;
+   text-transform: uppercase;
+   padding:10px 30px;
+   letter-spacing: 2px;
+   font-family: cursive;
+}
+.header .navbar .right_item ul{
+    display: flex;
+    margin-right: 100px;
+
+}
+.header .navbar .right_item ul li{
+    list-style: none;
+    padding: 5px 20px;
+    padding-bottom: 8px;
+    margin: 100px 5px;
+    font-weight: 500;
+    font-family: cursive;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border:1px solid transparent;
+    
+}
+.header .navbar .right_item ul li a{
+    color: #fff;
+    text-decoration: unset;
+}
+
+.header .navbar .right_item ul li:hover , .header .navbar .right_item ul .active{
+    background-color: rgba(255, 255, 255, .2);
+    border:1px solid rgba(255, 255, 255, 1);
+    overflow: hidden !important;
+    margin-left: 5px;
+}
+
+/* end nav header */
+
+/* start header desc */
+.header .desc{
+    text-align: center;
+    padding-top: 100px;
+    color:#fff ;
+}
+.header .desc p{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.header .desc img:hover{
+    cursor: pointer;
+}
+
+
+/* start servces section */
+.services{
+    display: flex;
+}
+.services .right_item , .services .left_item{
+    width: 50%;
+}
+.services .right_item img{
+    width: 100%;
+    height: 100%;
+}
+.services .left_item h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+    padding: 80px 30px 20px 120px;
+}
+.services .left_item p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    padding: 30px 30px 50px 120px;
+    line-height: 30px;
+}
+.services .left_item a{
+    text-decoration: unset;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition:border-bottom .5s ease-in-out;
+    margin: 30px 30px 0 120px;
+}
+.services .left_item a:hover{
+    border-bottom: 5px solid gold;
+    
+}
+/* end services */
+/* start three */
+.three{
+    display: flex;
+    width: 100%;
+}
+.three .left-sec , .three .right-sec{
+    width: 50%;
+}
+.three .left-sec img{
+    width: 100%;
+    height: 100%;
+}
+.three .right-sec h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+    padding: 80px 30px 20px 120px;
+}
+.three .right-sec p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    padding: 30px 30px 50px 120px;
+    line-height: 30px;
+}
+.three .right-sec a{
+    text-decoration: unset;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition:border-bottom .5s ease-in-out;
+    margin: 30px 30px 0 120px;
+}
+.three .right-sec a:hover{
+    border-bottom: 5px solid rgb(248, 0, 103);
+    
+}
+/* end three */
+/* start four */
+.four{
+    display: flex;
+    width: 100%;
+}
+.four .left-pic , .right-pic{
+    width: 50%;
+}
+.four .left-pic{
+    background-image: url("../img/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four .left-pic h3{
+    font-size: 30px;
+    color:#111;
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 450px;
+    text-transform: capitalize;
+}
+.four .left-pic p{
+    font-size: 15px;
+    color:#222;
+    font-family: cursive;
+    font-weight: 500;
+    text-align: center;
+}
+.four .right-pic{
+    background-image: url("../img/image-photography.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four .right-pic h3{
+    font-size: 30px;
+    color:#111;
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 450px;
+    text-transform: capitalize;
+}
+.four .right-pic p{
+    font-size: 15px;
+    color:#222;
+    font-family: cursive;
+    font-weight: 500;
+    text-align: center;
+}
+/* end four */
+/* start five */
+.five{
+    width: 100%;
+    padding-top: 100px;
+}
+.five .text{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #666;
+}
+.five .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 200px;
+    margin-top: 50px;
+}
+.five .cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.five .cards .card img{
+    border-radius: 50%;
+    width: 60px;
+}
+.five .cards .card p{
+    text-align: center;
+    line-height: 30px;
+    padding: 0 25px;
+}
+.five .cards .card h3{
+    text-align: center;
+    margin-top: 70px;
+}
+.five .cards .card h4{
+    text-align: center;
+    color: #666;
+}
+/* end five */
+/* start six */
+.six{
+    width: 100%;
+    display: flex;
+}
+.six img{
+    width: 25%;
+    height: 100%;
+}
+/* end six */
+/* start footer */
+.footer{
+    background-color: rgb(4, 163, 142);
+    height: 250px;
+    padding: 15px;
+}
+.footer h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(2, 82, 71);
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+    padding: 0 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.footer ul li a{
+    text-decoration: unset;
+    color: rgb(2, 82, 71);
+}
+.footer ul li a:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.footer .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-media a i{
+    padding: 15px;
+    color: rgb(2, 82, 71);
+    font-size: 20px;
+
+}
+.footer .social-media i:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+/* end footer */
+/* Responsive */
+@media screen and (max-width:760px){
+    .header .navbar .right_item{
+        display: none;
+    }
+}
+@media screen and (max-width:560px){
+    .header .navbar .left_item{
+        width: 100%;
+    }
+    .header .navbar .left_item h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .services{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+    .services .right_item , .services .left_item{
+        width: 100%;
+    }
+    .services .left_item h3{
+        text-align: center;
+        padding: 50px 0 0 0;
+    }
+    .services .left_item p{
+       text-align: center;
+       padding: 10px 30px 0 30px;
+    }
+    .services .left_item a{
+        display: inline-block;
+        text-align: center;
+        padding: 15px 0 0 0;
+        margin-bottom: 30px;
+    }
+    .services .left_item a:hover{
+        border-bottom: 5px solid gold;
+        
+    }
+    .three{
+        display: block;
+        width: 100%;
+    }
+    .three .left-sec , .three .right-sec{
+        width: 100%;
+    }
+    .three .right-sec h3{
+        text-align: center;
+        padding: 50px 20px 0 0;
+    }
+    .three .right-sec p{
+        text-align: center;
+        padding: 10px 30px 0 30px;
+    }
+    .three .right-sec a{
+        display: inline-block;
+        text-align: center;
+        padding: 15px 0 0 0;
+        margin-bottom: 30px;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .four .left-pic , .right-pic{
+        width: 100%;
+    }
+    .four .left-pic p{
+        padding: 0 50px 100px;
+    }
+    .four .right-pic p{
+        padding: 0 50px 100px;
+    }
+    .five .cards{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .five .cards .card h3{
+        margin-top: 40px;
+    }
+    .six{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-start;
+    }
+    .six img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer ul li{
+        padding: 0 15px;
+    }
+}
